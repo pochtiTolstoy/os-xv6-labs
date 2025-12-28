@@ -266,3 +266,34 @@ Your solution is correct if it implements a pipe-based sieve and produces the fo
     prime 31
     $
 ```
+
+#### find:
+```
+Write a simple version of the UNIX find program: find all the files in a directory tree with a specific name. Your solution should be in the file user/find.c. 
+
+Some hints:
+
+    Look at user/ls.c to see how to read directories.
+    Use recursion to allow find to descend into sub-directories.
+    Don't recurse into "." and "..".
+    Changes to the file system persist across runs of qemu; to get a clean file system run make clean and then make qemu.
+    You'll need to use C strings. Have a look at K&R (the C book), for example Section 5.5.
+    Note that == does not compare strings like in Python. Use strcmp() instead.
+    Add the program to UPROGS in Makefile. 
+
+Your solution is correct if produces the following output (when the file system contains the files b, a/b and a/aa/b):
+
+    $ make qemu
+    ...
+    init: starting sh
+    $ echo > b
+    $ mkdir a
+    $ echo > a/b
+    $ mkdir a/aa
+    $ echo > a/aa/b
+    $ find . b
+    ./b
+    ./a/b
+    ./a/aa/b
+    $
+```
