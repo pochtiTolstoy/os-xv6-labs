@@ -1,0 +1,635 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tim/Study/OS/xv6-prac/xv6-labs-2022/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+Align	user/umalloc.c	/^typedef long Align;$/;"	t	typeref:typename:long	file:
+BACK	user/sh.c	/^#define BACK /;"	d	file:
+BACKSPACE	kernel/console.c	/^#define BACKSPACE /;"	d	file:
+BIG	user/usertests.c	/^  enum { BIG=100*1024*1024 };$/;"	e	enum:sbrkfail::__anon2469bfd61003	file:
+BIG	user/usertests.c	/^  enum { BIG=100*1024*1024 };$/;"	e	enum:sbrkmuch::__anon2469bfd60f03	file:
+BUFSZ	user/usertests.c	/^#define BUFSZ /;"	d	file:
+C	kernel/console.c	/^#define C(/;"	d	file:
+EXEC	user/sh.c	/^#define EXEC /;"	d	file:
+FCR	kernel/uart.c	/^#define FCR /;"	d	file:
+FCR_FIFO_CLEAR	kernel/uart.c	/^#define FCR_FIFO_CLEAR /;"	d	file:
+FCR_FIFO_ENABLE	kernel/uart.c	/^#define FCR_FIFO_ENABLE /;"	d	file:
+Header	user/umalloc.c	/^typedef union header Header;$/;"	t	typeref:union:header	file:
+IER	kernel/uart.c	/^#define IER /;"	d	file:
+IER_RX_ENABLE	kernel/uart.c	/^#define IER_RX_ENABLE /;"	d	file:
+IER_TX_ENABLE	kernel/uart.c	/^#define IER_TX_ENABLE /;"	d	file:
+INPUT_BUF_SIZE	kernel/console.c	/^#define INPUT_BUF_SIZE /;"	d	file:
+ISR	kernel/uart.c	/^#define ISR /;"	d	file:
+LCR	kernel/uart.c	/^#define LCR /;"	d	file:
+LCR_BAUD_LATCH	kernel/uart.c	/^#define LCR_BAUD_LATCH /;"	d	file:
+LCR_EIGHT_BITS	kernel/uart.c	/^#define LCR_EIGHT_BITS /;"	d	file:
+LIST	user/sh.c	/^#define LIST /;"	d	file:
+LSR	kernel/uart.c	/^#define LSR /;"	d	file:
+LSR_RX_READY	kernel/uart.c	/^#define LSR_RX_READY /;"	d	file:
+LSR_TX_IDLE	kernel/uart.c	/^#define LSR_TX_IDLE /;"	d	file:
+MAXARGS	user/sh.c	/^#define MAXARGS /;"	d	file:
+MAXVAplus	user/usertests.c	/^MAXVAplus(char *s)$/;"	f	typeref:typename:void
+N	user/forktest.c	/^#define N /;"	d	file:
+N	user/usertests.c	/^  enum { N = 1000, SZ=10};$/;"	e	enum:sharedfd::__anon2469bfd60503	file:
+N	user/usertests.c	/^  enum { N = 20, NCHILD=4 };$/;"	e	enum:createdelete::__anon2469bfd60703	file:
+N	user/usertests.c	/^  enum { N = 20, SZ=600 };$/;"	e	enum:bigfile::__anon2469bfd60c03	file:
+N	user/usertests.c	/^  enum { N = 40 };$/;"	e	enum:concreate::__anon2469bfd60a03	file:
+N	user/usertests.c	/^  enum { N = 500 };$/;"	e	enum:bigdir::__anon2469bfd61103	file:
+N	user/usertests.c	/^  enum { N=100, SZ=10 };$/;"	e	enum:writetest::__anon2469bfd60103	file:
+N	user/usertests.c	/^  enum { N=12, NCHILD=4, SZ=500 };$/;"	e	enum:fourfiles::__anon2469bfd60603	file:
+N	user/usertests.c	/^  enum { N=2 };$/;"	e	enum:forkfork::__anon2469bfd60403	file:
+N	user/usertests.c	/^  enum { N=5, SZ=1033 };$/;"	e	enum:pipe1::__anon2469bfd60303	file:
+N	user/usertests.c	/^  enum { N=52 };$/;"	e	enum:createtest::__anon2469bfd60203	file:
+N	user/usertests.c	/^  enum{ N = 1000 };$/;"	e	enum:forktest::__anon2469bfd60d03	file:
+NCHILD	user/usertests.c	/^  enum { N = 20, NCHILD=4 };$/;"	e	enum:createdelete::__anon2469bfd60703	file:
+NCHILD	user/usertests.c	/^  enum { N=12, NCHILD=4, SZ=500 };$/;"	e	enum:fourfiles::__anon2469bfd60603	file:
+NINODES	mkfs/mkfs.c	/^#define NINODES /;"	d	file:
+PIPE	user/sh.c	/^#define PIPE /;"	d	file:
+PIPESIZE	kernel/pipe.c	/^#define PIPESIZE /;"	d	file:
+R	kernel/virtio_disk.c	/^#define R(/;"	d	file:
+REDIR	user/sh.c	/^#define REDIR /;"	d	file:
+RHR	kernel/uart.c	/^#define RHR /;"	d	file:
+ReadReg	kernel/uart.c	/^#define ReadReg(/;"	d	file:
+Reg	kernel/uart.c	/^#define Reg(/;"	d	file:
+SZ	user/usertests.c	/^  enum { N = 1000, SZ=10};$/;"	e	enum:sharedfd::__anon2469bfd60503	file:
+SZ	user/usertests.c	/^  enum { N = 20, SZ=600 };$/;"	e	enum:bigfile::__anon2469bfd60c03	file:
+SZ	user/usertests.c	/^  enum { N=100, SZ=10 };$/;"	e	enum:writetest::__anon2469bfd60103	file:
+SZ	user/usertests.c	/^  enum { N=12, NCHILD=4, SZ=500 };$/;"	e	enum:fourfiles::__anon2469bfd60603	file:
+SZ	user/usertests.c	/^  enum { N=5, SZ=1033 };$/;"	e	enum:pipe1::__anon2469bfd60303	file:
+SZ	user/usertests.c	/^  enum { SZ = 5 };$/;"	e	enum:linktest::__anon2469bfd60903	file:
+SZ	user/usertests.c	/^  enum { SZ = 5 };$/;"	e	enum:unlinkread::__anon2469bfd60803	file:
+THR	kernel/uart.c	/^#define THR /;"	d	file:
+TOOMUCH	user/usertests.c	/^  enum { TOOMUCH=1024*1024*1024};$/;"	e	enum:sbrkbasic::__anon2469bfd60e03	file:
+UART_TX_BUF_SIZE	kernel/uart.c	/^#define UART_TX_BUF_SIZE /;"	d	file:
+WriteReg	kernel/uart.c	/^#define WriteReg(/;"	d	file:
+__anon033c111f0108	kernel/fs.c	/^struct {$/;"	s	file:
+__anon0ecc7a2d0108	kernel/virtio_disk.c	/^  struct {$/;"	s	struct:disk	file:
+__anon2469bfd60103	user/usertests.c	/^  enum { N=100, SZ=10 };$/;"	g	function:writetest	file:
+__anon2469bfd60203	user/usertests.c	/^  enum { N=52 };$/;"	g	function:createtest	file:
+__anon2469bfd60303	user/usertests.c	/^  enum { N=5, SZ=1033 };$/;"	g	function:pipe1	file:
+__anon2469bfd60403	user/usertests.c	/^  enum { N=2 };$/;"	g	function:forkfork	file:
+__anon2469bfd60503	user/usertests.c	/^  enum { N = 1000, SZ=10};$/;"	g	function:sharedfd	file:
+__anon2469bfd60603	user/usertests.c	/^  enum { N=12, NCHILD=4, SZ=500 };$/;"	g	function:fourfiles	file:
+__anon2469bfd60703	user/usertests.c	/^  enum { N = 20, NCHILD=4 };$/;"	g	function:createdelete	file:
+__anon2469bfd60803	user/usertests.c	/^  enum { SZ = 5 };$/;"	g	function:unlinkread	file:
+__anon2469bfd60903	user/usertests.c	/^  enum { SZ = 5 };$/;"	g	function:linktest	file:
+__anon2469bfd60a03	user/usertests.c	/^  enum { N = 40 };$/;"	g	function:concreate	file:
+__anon2469bfd60b08	user/usertests.c	/^  struct {$/;"	s	function:concreate	file:
+__anon2469bfd60c03	user/usertests.c	/^  enum { N = 20, SZ=600 };$/;"	g	function:bigfile	file:
+__anon2469bfd60d03	user/usertests.c	/^  enum{ N = 1000 };$/;"	g	function:forktest	file:
+__anon2469bfd60e03	user/usertests.c	/^  enum { TOOMUCH=1024*1024*1024};$/;"	g	function:sbrkbasic	file:
+__anon2469bfd60f03	user/usertests.c	/^  enum { BIG=100*1024*1024 };$/;"	g	function:sbrkmuch	file:
+__anon2469bfd61003	user/usertests.c	/^  enum { BIG=100*1024*1024 };$/;"	g	function:sbrkfail	file:
+__anon2469bfd61103	user/usertests.c	/^  enum { N = 500 };$/;"	g	function:bigdir	file:
+__anon3c3fa87c0108	kernel/kalloc.c	/^struct {$/;"	s	file:
+__anon3d351ad10108	user/umalloc.c	/^  struct {$/;"	s	union:header	file:
+__anon6a7165400108	kernel/bio.c	/^struct {$/;"	s	file:
+__anonb6393d190108	kernel/console.c	/^struct {$/;"	s	file:
+__anonc1f1ee260108	kernel/file.c	/^struct {$/;"	s	file:
+__anonef4e5b790108	kernel/printf.c	/^static struct {$/;"	s	file:
+_main	user/ulib.c	/^_main()$/;"	f	typeref:typename:void
+acquire	kernel/spinlock.c	/^acquire(struct spinlock *lk)$/;"	f	typeref:typename:void
+acquiresleep	kernel/sleeplock.c	/^acquiresleep(struct sleeplock *lk)$/;"	f	typeref:typename:void
+alloc3_desc	kernel/virtio_disk.c	/^alloc3_desc(int *idx)$/;"	f	typeref:typename:int	file:
+alloc_desc	kernel/virtio_disk.c	/^alloc_desc()$/;"	f	typeref:typename:int	file:
+allocpid	kernel/proc.c	/^allocpid()$/;"	f	typeref:typename:int
+allocproc	kernel/proc.c	/^allocproc(void)$/;"	f	typeref:struct:proc *	file:
+argaddr	kernel/syscall.c	/^argaddr(int n, uint64 *ip)$/;"	f	typeref:typename:void
+argfd	kernel/sysfile.c	/^argfd(int n, int *pfd, struct file **pf)$/;"	f	typeref:typename:int	file:
+argint	kernel/syscall.c	/^argint(int n, int *ip)$/;"	f	typeref:typename:void
+argptest	user/usertests.c	/^void argptest(char *s)$/;"	f	typeref:typename:void
+argraw	kernel/syscall.c	/^argraw(int n)$/;"	f	typeref:typename:uint64	file:
+argstr	kernel/syscall.c	/^argstr(int n, char *buf, int max)$/;"	f	typeref:typename:int
+argv	user/init.c	/^char *argv[] = { "sh", 0 };$/;"	v	typeref:typename:char * []
+argv	user/sh.c	/^  char *argv[MAXARGS];$/;"	m	struct:execcmd	typeref:typename:char * []	file:
+atoi	user/ulib.c	/^atoi(const char *s)$/;"	f	typeref:typename:int
+avail	kernel/virtio_disk.c	/^  struct virtq_avail *avail;$/;"	m	struct:disk	typeref:struct:virtq_avail *	file:
+b	kernel/virtio_disk.c	/^    struct buf *b;$/;"	m	struct:disk::__anon0ecc7a2d0108	typeref:struct:buf *	file:
+backcmd	user/sh.c	/^backcmd(struct cmd *subcmd)$/;"	f	typeref:struct:cmd *
+backcmd	user/sh.c	/^struct backcmd {$/;"	s	file:
+badarg	user/usertests.c	/^badarg(char *s)$/;"	f	typeref:typename:void
+badwrite	user/usertests.c	/^badwrite(char *s)$/;"	f	typeref:typename:void
+balloc	kernel/fs.c	/^balloc(uint dev)$/;"	f	typeref:typename:uint	file:
+balloc	mkfs/mkfs.c	/^balloc(int used)$/;"	f	typeref:typename:void
+balloc	mkfs/mkfs.c	/^void balloc(int);$/;"	p	typeref:typename:void	file:
+base	user/umalloc.c	/^static Header base;$/;"	v	typeref:typename:Header	file:
+bcache	kernel/bio.c	/^} bcache;$/;"	v	typeref:struct:__anon6a7165400108
+begin_op	kernel/log.c	/^begin_op(void)$/;"	f	typeref:typename:void
+bfree	kernel/fs.c	/^bfree(int dev, uint b)$/;"	f	typeref:typename:void	file:
+bget	kernel/bio.c	/^bget(uint dev, uint blockno)$/;"	f	typeref:struct:buf *	file:
+big	user/usertests.c	/^void *big = (void*) 0xeaeb0b5b00002f5e;$/;"	v	typeref:typename:void *
+bigargtest	user/usertests.c	/^bigargtest(char *s)$/;"	f	typeref:typename:void
+bigdir	user/usertests.c	/^bigdir(char *s)$/;"	f	typeref:typename:void
+bigfile	user/usertests.c	/^bigfile(char *s)$/;"	f	typeref:typename:void
+bigwrite	user/usertests.c	/^bigwrite(char *s)$/;"	f	typeref:typename:void
+binit	kernel/bio.c	/^binit(void)$/;"	f	typeref:typename:void
+block	kernel/log.c	/^  int block[LOGSIZE];$/;"	m	struct:logheader	typeref:typename:int[]	file:
+bmap	kernel/fs.c	/^bmap(struct inode *ip, uint bn)$/;"	f	typeref:typename:uint	file:
+bpin	kernel/bio.c	/^bpin(struct buf *b) {$/;"	f	typeref:typename:void
+bread	kernel/bio.c	/^bread(uint dev, uint blockno)$/;"	f	typeref:struct:buf *
+brelse	kernel/bio.c	/^brelse(struct buf *b)$/;"	f	typeref:typename:void
+bsstest	user/usertests.c	/^bsstest(char *s)$/;"	f	typeref:typename:void
+buf	kernel/bio.c	/^  struct buf buf[NBUF];$/;"	m	struct:__anon6a7165400108	typeref:struct:buf[]	file:
+buf	kernel/console.c	/^  char buf[INPUT_BUF_SIZE];$/;"	m	struct:__anonb6393d190108	typeref:typename:char[]	file:
+buf	user/cat.c	/^char buf[512];$/;"	v	typeref:typename:char[512]
+buf	user/grep.c	/^char buf[1024];$/;"	v	typeref:typename:char[1024]
+buf	user/usertests.c	/^char buf[BUFSZ];$/;"	v	typeref:typename:char[]
+buf	user/wc.c	/^char buf[512];$/;"	v	typeref:typename:char[512]
+bunpin	kernel/bio.c	/^bunpin(struct buf *b) {$/;"	f	typeref:typename:void
+bwrite	kernel/bio.c	/^bwrite(struct buf *b)$/;"	f	typeref:typename:void
+bzero	kernel/fs.c	/^bzero(int dev, int bno)$/;"	f	typeref:typename:void	file:
+cat	user/cat.c	/^cat(int fd)$/;"	f	typeref:typename:void
+clockintr	kernel/trap.c	/^clockintr()$/;"	f	typeref:typename:void
+cmd	user/sh.c	/^  struct cmd *cmd;$/;"	m	struct:backcmd	typeref:struct:cmd *	file:
+cmd	user/sh.c	/^  struct cmd *cmd;$/;"	m	struct:redircmd	typeref:struct:cmd *	file:
+cmd	user/sh.c	/^struct cmd {$/;"	s	file:
+commit	kernel/log.c	/^commit()$/;"	f	typeref:typename:void	file:
+commit	kernel/log.c	/^static void commit();$/;"	p	typeref:typename:void	file:
+committing	kernel/log.c	/^  int committing;  \/\/ in commit(), please wait.$/;"	m	struct:log	typeref:typename:int	file:
+concreate	user/usertests.c	/^concreate(char *s)$/;"	f	typeref:typename:void
+cons	kernel/console.c	/^} cons;$/;"	v	typeref:struct:__anonb6393d190108
+consoleinit	kernel/console.c	/^consoleinit(void)$/;"	f	typeref:typename:void
+consoleintr	kernel/console.c	/^consoleintr(int c)$/;"	f	typeref:typename:void
+consoleread	kernel/console.c	/^consoleread(int user_dst, uint64 dst, int n)$/;"	f	typeref:typename:int
+consolewrite	kernel/console.c	/^consolewrite(int user_src, uint64 src, int n)$/;"	f	typeref:typename:int
+consputc	kernel/console.c	/^consputc(int c)$/;"	f	typeref:typename:void
+copyin	kernel/vm.c	/^copyin(pagetable_t pagetable, char *dst, uint64 srcva, uint64 len)$/;"	f	typeref:typename:int
+copyin	user/usertests.c	/^copyin(char *s)$/;"	f	typeref:typename:void
+copyinstr	kernel/vm.c	/^copyinstr(pagetable_t pagetable, char *dst, uint64 srcva, uint64 max)$/;"	f	typeref:typename:int
+copyinstr1	user/usertests.c	/^copyinstr1(char *s)$/;"	f	typeref:typename:void
+copyinstr2	user/usertests.c	/^copyinstr2(char *s)$/;"	f	typeref:typename:void
+copyinstr3	user/usertests.c	/^copyinstr3(char *s)$/;"	f	typeref:typename:void
+copyout	kernel/vm.c	/^copyout(pagetable_t pagetable, uint64 dstva, char *src, uint64 len)$/;"	f	typeref:typename:int
+copyout	user/usertests.c	/^copyout(char *s)$/;"	f	typeref:typename:void
+countfree	user/usertests.c	/^countfree()$/;"	f	typeref:typename:int
+cpuid	kernel/proc.c	/^cpuid()$/;"	f	typeref:typename:int
+cpus	kernel/proc.c	/^struct cpu cpus[NCPU];$/;"	v	typeref:struct:cpu[]
+create	kernel/sysfile.c	/^create(char *path, short type, short major, short minor)$/;"	f	typeref:struct:inode *	file:
+createdelete	user/usertests.c	/^createdelete(char *s)$/;"	f	typeref:typename:void
+createtest	user/usertests.c	/^createtest(char *s)$/;"	f	typeref:typename:void
+data	kernel/pipe.c	/^  char data[PIPESIZE];$/;"	m	struct:pipe	typeref:typename:char[]	file:
+desc	kernel/virtio_disk.c	/^  struct virtq_desc *desc;$/;"	m	struct:disk	typeref:struct:virtq_desc *	file:
+dev	kernel/log.c	/^  int dev;$/;"	m	struct:log	typeref:typename:int	file:
+devintr	kernel/trap.c	/^devintr()$/;"	f	typeref:typename:int
+devintr	kernel/trap.c	/^extern int devintr();$/;"	p	typeref:typename:int	file:
+devsw	kernel/file.c	/^struct devsw devsw[NDEV];$/;"	v	typeref:struct:devsw[]
+die	mkfs/mkfs.c	/^die(const char *s)$/;"	f	typeref:typename:void
+die	mkfs/mkfs.c	/^void die(const char *);$/;"	p	typeref:typename:void	file:
+digits	kernel/printf.c	/^static char digits[] = "0123456789abcdef";$/;"	v	typeref:typename:char[]	file:
+digits	user/printf.c	/^static char digits[] = "0123456789ABCDEF";$/;"	v	typeref:typename:char[]	file:
+dirfile	user/usertests.c	/^dirfile(char *s)$/;"	f	typeref:typename:void
+dirlink	kernel/fs.c	/^dirlink(struct inode *dp, char *name, uint inum)$/;"	f	typeref:typename:int
+dirlookup	kernel/fs.c	/^dirlookup(struct inode *dp, char *name, uint *poff)$/;"	f	typeref:struct:inode *
+dirtest	user/usertests.c	/^void dirtest(char *s)$/;"	f	typeref:typename:void
+disk	kernel/virtio_disk.c	/^static struct disk {$/;"	s	file:
+disk	kernel/virtio_disk.c	/^} disk;$/;"	v	typeref:struct:disk
+diskfull	user/usertests.c	/^diskfull(char *s)$/;"	f	typeref:typename:void
+do_rand	user/grind.c	/^do_rand(unsigned long *ctx)$/;"	f	typeref:typename:int
+drivetests	user/usertests.c	/^drivetests(int quick, int continuous, char *justone) {$/;"	f	typeref:typename:int
+e	kernel/console.c	/^  uint e;  \/\/ Edit index$/;"	m	struct:__anonb6393d190108	typeref:typename:uint	file:
+eargv	user/sh.c	/^  char *eargv[MAXARGS];$/;"	m	struct:execcmd	typeref:typename:char * []	file:
+efile	user/sh.c	/^  char *efile;$/;"	m	struct:redircmd	typeref:typename:char *	file:
+either_copyin	kernel/proc.c	/^either_copyin(void *dst, int user_src, uint64 src, uint64 len)$/;"	f	typeref:typename:int
+either_copyout	kernel/proc.c	/^either_copyout(int user_dst, uint64 dst, void *src, uint64 len)$/;"	f	typeref:typename:int
+end_op	kernel/log.c	/^end_op(void)$/;"	f	typeref:typename:void
+exec	kernel/exec.c	/^exec(char *path, char **argv)$/;"	f	typeref:typename:int
+execcmd	user/sh.c	/^execcmd(void)$/;"	f	typeref:struct:cmd *
+execcmd	user/sh.c	/^struct execcmd {$/;"	s	file:
+execout	user/usertests.c	/^execout(char *s)$/;"	f	typeref:typename:void
+exectest	user/usertests.c	/^exectest(char *s)$/;"	f	typeref:typename:void
+exit	kernel/proc.c	/^exit(int status)$/;"	f	typeref:typename:void
+exitiputtest	user/usertests.c	/^exitiputtest(char *s)$/;"	f	typeref:typename:void
+exitwait	user/usertests.c	/^exitwait(char *s)$/;"	f	typeref:typename:void
+f	user/usertests.c	/^  void (*f)(char *);$/;"	m	struct:test	typeref:typename:void (*)(char *)	file:
+fd	user/sh.c	/^  int fd;$/;"	m	struct:redircmd	typeref:typename:int	file:
+fdalloc	kernel/sysfile.c	/^fdalloc(struct file *f)$/;"	f	typeref:typename:int	file:
+fetchaddr	kernel/syscall.c	/^fetchaddr(uint64 addr, uint64 *ip)$/;"	f	typeref:typename:int
+fetchstr	kernel/syscall.c	/^fetchstr(uint64 addr, char *buf, int max)$/;"	f	typeref:typename:int
+file	kernel/file.c	/^  struct file file[NFILE];$/;"	m	struct:__anonc1f1ee260108	typeref:struct:file[]	file:
+file	user/sh.c	/^  char *file;$/;"	m	struct:redircmd	typeref:typename:char *	file:
+filealloc	kernel/file.c	/^filealloc(void)$/;"	f	typeref:struct:file *
+fileclose	kernel/file.c	/^fileclose(struct file *f)$/;"	f	typeref:typename:void
+filedup	kernel/file.c	/^filedup(struct file *f)$/;"	f	typeref:struct:file *
+fileinit	kernel/file.c	/^fileinit(void)$/;"	f	typeref:typename:void
+fileread	kernel/file.c	/^fileread(struct file *f, uint64 addr, int n)$/;"	f	typeref:typename:int
+filestat	kernel/file.c	/^filestat(struct file *f, uint64 addr)$/;"	f	typeref:typename:int
+filewrite	kernel/file.c	/^filewrite(struct file *f, uint64 addr, int n)$/;"	f	typeref:typename:int
+flags2perm	kernel/exec.c	/^int flags2perm(int flags)$/;"	f	typeref:typename:int
+fmtname	user/ls.c	/^fmtname(char *path)$/;"	f	typeref:typename:char *
+fork	kernel/proc.c	/^fork(void)$/;"	f	typeref:typename:int
+fork1	user/sh.c	/^fork1(void)$/;"	f	typeref:typename:int
+fork1	user/sh.c	/^int fork1(void);  \/\/ Fork but panics on failure.$/;"	p	typeref:typename:int	file:
+forkfork	user/usertests.c	/^forkfork(char *s)$/;"	f	typeref:typename:void
+forkforkfork	user/usertests.c	/^forkforkfork(char *s)$/;"	f	typeref:typename:void
+forkret	kernel/proc.c	/^extern void forkret(void);$/;"	p	typeref:typename:void	file:
+forkret	kernel/proc.c	/^forkret(void)$/;"	f	typeref:typename:void
+forktest	user/forktest.c	/^forktest(void)$/;"	f	typeref:typename:void
+forktest	user/usertests.c	/^forktest(char *s)$/;"	f	typeref:typename:void
+fourfiles	user/usertests.c	/^fourfiles(char *s)$/;"	f	typeref:typename:void
+fourteen	user/usertests.c	/^fourteen(char *s)$/;"	f	typeref:typename:void
+fprintf	user/printf.c	/^fprintf(int fd, const char *fmt, ...)$/;"	f	typeref:typename:void
+free	kernel/virtio_disk.c	/^  char free[NUM];  \/\/ is a descriptor free?$/;"	m	struct:disk	typeref:typename:char[]	file:
+free	user/umalloc.c	/^free(void *ap)$/;"	f	typeref:typename:void
+free_chain	kernel/virtio_disk.c	/^free_chain(int i)$/;"	f	typeref:typename:void	file:
+free_desc	kernel/virtio_disk.c	/^free_desc(int i)$/;"	f	typeref:typename:void	file:
+freeblock	mkfs/mkfs.c	/^uint freeblock;$/;"	v	typeref:typename:uint
+freeinode	mkfs/mkfs.c	/^uint freeinode = 1;$/;"	v	typeref:typename:uint
+freelist	kernel/kalloc.c	/^  struct run *freelist;$/;"	m	struct:__anon3c3fa87c0108	typeref:struct:run *	file:
+freep	user/umalloc.c	/^static Header *freep;$/;"	v	typeref:typename:Header *	file:
+freeproc	kernel/proc.c	/^freeproc(struct proc *p)$/;"	f	typeref:typename:void	file:
+freeproc	kernel/proc.c	/^static void freeproc(struct proc *p);$/;"	p	typeref:typename:void	file:
+freerange	kernel/kalloc.c	/^freerange(void *pa_start, void *pa_end)$/;"	f	typeref:typename:void
+freerange	kernel/kalloc.c	/^void freerange(void *pa_start, void *pa_end);$/;"	p	typeref:typename:void	file:
+freewalk	kernel/vm.c	/^freewalk(pagetable_t pagetable)$/;"	f	typeref:typename:void
+fsfd	mkfs/mkfs.c	/^int fsfd;$/;"	v	typeref:typename:int
+fsfull	user/usertests.c	/^fsfull()$/;"	f	typeref:typename:void
+fsinit	kernel/fs.c	/^fsinit(int dev) {$/;"	f	typeref:typename:void
+ftable	kernel/file.c	/^} ftable;$/;"	v	typeref:struct:__anonc1f1ee260108
+getcmd	user/sh.c	/^getcmd(char *buf, int nbuf)$/;"	f	typeref:typename:int
+gets	user/ulib.c	/^gets(char *buf, int max)$/;"	f	typeref:typename:char *
+gettoken	user/sh.c	/^gettoken(char **ps, char *es, char **q, char **eq)$/;"	f	typeref:typename:int
+go	user/grind.c	/^go(int which_child)$/;"	f	typeref:typename:void
+grep	user/grep.c	/^grep(char *pattern, int fd)$/;"	f	typeref:typename:void
+growproc	kernel/proc.c	/^growproc(int n)$/;"	f	typeref:typename:int
+head	kernel/bio.c	/^  struct buf head;$/;"	m	struct:__anon6a7165400108	typeref:struct:buf	file:
+header	user/umalloc.c	/^union header {$/;"	u	file:
+holding	kernel/spinlock.c	/^holding(struct spinlock *lk)$/;"	f	typeref:typename:int
+holdingsleep	kernel/sleeplock.c	/^holdingsleep(struct sleeplock *lk)$/;"	f	typeref:typename:int
+ialloc	kernel/fs.c	/^ialloc(uint dev, short type)$/;"	f	typeref:struct:inode *
+ialloc	mkfs/mkfs.c	/^ialloc(ushort type)$/;"	f	typeref:typename:uint
+ialloc	mkfs/mkfs.c	/^uint ialloc(ushort type);$/;"	p	typeref:typename:uint	file:
+iappend	mkfs/mkfs.c	/^iappend(uint inum, void *xp, int n)$/;"	f	typeref:typename:void
+iappend	mkfs/mkfs.c	/^void iappend(uint inum, void *p, int n);$/;"	p	typeref:typename:void	file:
+idup	kernel/fs.c	/^idup(struct inode *ip)$/;"	f	typeref:struct:inode *
+iget	kernel/fs.c	/^iget(uint dev, uint inum)$/;"	f	typeref:struct:inode *	file:
+iget	kernel/fs.c	/^static struct inode* iget(uint dev, uint inum);$/;"	p	typeref:struct:inode *	file:
+iinit	kernel/fs.c	/^iinit()$/;"	f	typeref:typename:void
+ilock	kernel/fs.c	/^ilock(struct inode *ip)$/;"	f	typeref:typename:void
+info	kernel/virtio_disk.c	/^  } info[NUM];$/;"	m	struct:disk	typeref:struct:disk::__anon0ecc7a2d0108[]	file:
+initcode	kernel/proc.c	/^uchar initcode[] = {$/;"	v	typeref:typename:uchar[]
+initlock	kernel/spinlock.c	/^initlock(struct spinlock *lk, char *name)$/;"	f	typeref:typename:void
+initlog	kernel/log.c	/^initlog(int dev, struct superblock *sb)$/;"	f	typeref:typename:void
+initproc	kernel/proc.c	/^struct proc *initproc;$/;"	v	typeref:struct:proc *
+initsleeplock	kernel/sleeplock.c	/^initsleeplock(struct sleeplock *lk, char *name)$/;"	f	typeref:typename:void
+inode	kernel/fs.c	/^  struct inode inode[NINODE];$/;"	m	struct:__anon033c111f0108	typeref:struct:inode[]	file:
+install_trans	kernel/log.c	/^install_trans(int recovering)$/;"	f	typeref:typename:void	file:
+inum	user/usertests.c	/^    ushort inum;$/;"	m	struct:concreate::__anon2469bfd60b08	typeref:typename:ushort	file:
+iput	kernel/fs.c	/^iput(struct inode *ip)$/;"	f	typeref:typename:void
+iputtest	user/usertests.c	/^iputtest(char *s)$/;"	f	typeref:typename:void
+iref	user/usertests.c	/^iref(char *s)$/;"	f	typeref:typename:void
+isdirempty	kernel/sysfile.c	/^isdirempty(struct inode *dp)$/;"	f	typeref:typename:int	file:
+itable	kernel/fs.c	/^} itable;$/;"	v	typeref:struct:__anon033c111f0108
+iter	user/grind.c	/^iter()$/;"	f	typeref:typename:void
+itrunc	kernel/fs.c	/^itrunc(struct inode *ip)$/;"	f	typeref:typename:void
+iunlock	kernel/fs.c	/^iunlock(struct inode *ip)$/;"	f	typeref:typename:void
+iunlockput	kernel/fs.c	/^iunlockput(struct inode *ip)$/;"	f	typeref:typename:void
+iupdate	kernel/fs.c	/^iupdate(struct inode *ip)$/;"	f	typeref:typename:void
+kalloc	kernel/kalloc.c	/^kalloc(void)$/;"	f	typeref:typename:void *
+kernel_pagetable	kernel/vm.c	/^pagetable_t kernel_pagetable;$/;"	v	typeref:typename:pagetable_t
+kerneltrap	kernel/trap.c	/^kerneltrap()$/;"	f	typeref:typename:void
+kernelvec	kernel/trap.c	/^void kernelvec();$/;"	p	typeref:typename:void	file:
+kernmem	user/usertests.c	/^kernmem(char *s)$/;"	f	typeref:typename:void
+kfree	kernel/kalloc.c	/^kfree(void *pa)$/;"	f	typeref:typename:void
+kill	kernel/proc.c	/^kill(int pid)$/;"	f	typeref:typename:int
+killed	kernel/proc.c	/^killed(struct proc *p)$/;"	f	typeref:typename:int
+killstatus	user/usertests.c	/^killstatus(char *s)$/;"	f	typeref:typename:void
+kinit	kernel/kalloc.c	/^kinit()$/;"	f	typeref:typename:void
+kmem	kernel/kalloc.c	/^} kmem;$/;"	v	typeref:struct:__anon3c3fa87c0108
+kvminit	kernel/vm.c	/^kvminit(void)$/;"	f	typeref:typename:void
+kvminithart	kernel/vm.c	/^kvminithart()$/;"	f	typeref:typename:void
+kvmmake	kernel/vm.c	/^kvmmake(void)$/;"	f	typeref:typename:pagetable_t
+kvmmap	kernel/vm.c	/^kvmmap(pagetable_t kpgtbl, uint64 va, uint64 pa, uint64 sz, int perm)$/;"	f	typeref:typename:void
+left	user/sh.c	/^  struct cmd *left;$/;"	m	struct:listcmd	typeref:struct:cmd *	file:
+left	user/sh.c	/^  struct cmd *left;$/;"	m	struct:pipecmd	typeref:struct:cmd *	file:
+lh	kernel/log.c	/^  struct logheader lh;$/;"	m	struct:log	typeref:struct:logheader	file:
+linktest	user/usertests.c	/^linktest(char *s)$/;"	f	typeref:typename:void
+linkunlink	user/usertests.c	/^linkunlink(char *s)$/;"	f	typeref:typename:void
+listcmd	user/sh.c	/^listcmd(struct cmd *left, struct cmd *right)$/;"	f	typeref:struct:cmd *
+listcmd	user/sh.c	/^struct listcmd {$/;"	s	file:
+loadseg	kernel/exec.c	/^loadseg(pagetable_t pagetable, uint64 va, struct inode *ip, uint offset, uint sz)$/;"	f	typeref:typename:int	file:
+loadseg	kernel/exec.c	/^static int loadseg(pde_t *, uint64, struct inode *, uint, uint);$/;"	p	typeref:typename:int	file:
+lock	kernel/bio.c	/^  struct spinlock lock;$/;"	m	struct:__anon6a7165400108	typeref:struct:spinlock	file:
+lock	kernel/console.c	/^  struct spinlock lock;$/;"	m	struct:__anonb6393d190108	typeref:struct:spinlock	file:
+lock	kernel/file.c	/^  struct spinlock lock;$/;"	m	struct:__anonc1f1ee260108	typeref:struct:spinlock	file:
+lock	kernel/fs.c	/^  struct spinlock lock;$/;"	m	struct:__anon033c111f0108	typeref:struct:spinlock	file:
+lock	kernel/kalloc.c	/^  struct spinlock lock;$/;"	m	struct:__anon3c3fa87c0108	typeref:struct:spinlock	file:
+lock	kernel/log.c	/^  struct spinlock lock;$/;"	m	struct:log	typeref:struct:spinlock	file:
+lock	kernel/pipe.c	/^  struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:spinlock	file:
+lock	kernel/printf.c	/^  struct spinlock lock;$/;"	m	struct:__anonef4e5b790108	typeref:struct:spinlock	file:
+locking	kernel/printf.c	/^  int locking;$/;"	m	struct:__anonef4e5b790108	typeref:typename:int	file:
+log	kernel/log.c	/^struct log log;$/;"	v	typeref:struct:log
+log	kernel/log.c	/^struct log {$/;"	s	file:
+log_write	kernel/log.c	/^log_write(struct buf *b)$/;"	f	typeref:typename:void
+logheader	kernel/log.c	/^struct logheader {$/;"	s	file:
+ls	user/ls.c	/^ls(char *path)$/;"	f	typeref:typename:void
+main	kernel/main.c	/^main()$/;"	f	typeref:typename:void
+main	kernel/start.c	/^void main();$/;"	p	typeref:typename:void	file:
+main	mkfs/mkfs.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/cat.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/echo.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/forktest.c	/^main(void)$/;"	f	typeref:typename:int
+main	user/grep.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/grind.c	/^main()$/;"	f	typeref:typename:int
+main	user/init.c	/^main(void)$/;"	f	typeref:typename:int
+main	user/kill.c	/^main(int argc, char **argv)$/;"	f	typeref:typename:int
+main	user/ln.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/ls.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/mkdir.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/rm.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/sh.c	/^main(void)$/;"	f	typeref:typename:int
+main	user/stressfs.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/usertests.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/wc.c	/^main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	user/zombie.c	/^main(void)$/;"	f	typeref:typename:int
+malloc	user/umalloc.c	/^malloc(uint nbytes)$/;"	f	typeref:typename:void *
+manywrites	user/usertests.c	/^manywrites(char *s)$/;"	f	typeref:typename:void
+mappages	kernel/vm.c	/^mappages(pagetable_t pagetable, uint64 va, uint64 size, uint64 pa, int perm)$/;"	f	typeref:typename:int
+match	user/grep.c	/^int match(char*, char*);$/;"	p	typeref:typename:int	file:
+match	user/grep.c	/^match(char *re, char *text)$/;"	f	typeref:typename:int
+matchhere	user/grep.c	/^int matchhere(char *re, char *text)$/;"	f	typeref:typename:int
+matchhere	user/grep.c	/^int matchhere(char*, char*);$/;"	p	typeref:typename:int	file:
+matchstar	user/grep.c	/^int matchstar(int c, char *re, char *text)$/;"	f	typeref:typename:int
+matchstar	user/grep.c	/^int matchstar(int, char*, char*);$/;"	p	typeref:typename:int	file:
+mem	user/usertests.c	/^mem(char *s)$/;"	f	typeref:typename:void
+memcmp	kernel/string.c	/^memcmp(const void *v1, const void *v2, uint n)$/;"	f	typeref:typename:int
+memcmp	user/ulib.c	/^memcmp(const void *s1, const void *s2, uint n)$/;"	f	typeref:typename:int
+memcpy	kernel/string.c	/^memcpy(void *dst, const void *src, uint n)$/;"	f	typeref:typename:void *
+memcpy	user/ulib.c	/^memcpy(void *dst, const void *src, uint n)$/;"	f	typeref:typename:void *
+memmove	kernel/string.c	/^memmove(void *dst, const void *src, uint n)$/;"	f	typeref:typename:void *
+memmove	user/ulib.c	/^memmove(void *vdst, const void *vsrc, int n)$/;"	f	typeref:typename:void *
+memset	kernel/string.c	/^memset(void *dst, int c, uint n)$/;"	f	typeref:typename:void *
+memset	user/ulib.c	/^memset(void *dst, int c, uint n)$/;"	f	typeref:typename:void *
+min	kernel/fs.c	/^#define min(/;"	d	file:
+min	mkfs/mkfs.c	/^#define min(/;"	d	file:
+mode	user/sh.c	/^  int mode;$/;"	m	struct:redircmd	typeref:typename:int	file:
+morecore	user/umalloc.c	/^morecore(uint nu)$/;"	f	typeref:typename:Header *	file:
+mycpu	kernel/proc.c	/^mycpu(void)$/;"	f	typeref:struct:cpu *
+myproc	kernel/proc.c	/^myproc(void)$/;"	f	typeref:struct:proc *
+n	kernel/log.c	/^  int n;$/;"	m	struct:logheader	typeref:typename:int	file:
+name	user/usertests.c	/^    char name[DIRSIZ];$/;"	m	struct:concreate::__anon2469bfd60b08	typeref:typename:char[]	file:
+namecmp	kernel/fs.c	/^namecmp(const char *s, const char *t)$/;"	f	typeref:typename:int
+namei	kernel/fs.c	/^namei(char *path)$/;"	f	typeref:struct:inode *
+nameiparent	kernel/fs.c	/^nameiparent(char *path, char *name)$/;"	f	typeref:struct:inode *
+namex	kernel/fs.c	/^namex(char *path, int nameiparent, char *name)$/;"	f	typeref:struct:inode *	file:
+nbitmap	mkfs/mkfs.c	/^int nbitmap = FSSIZE\/(BSIZE*8) + 1;$/;"	v	typeref:typename:int
+nblocks	mkfs/mkfs.c	/^int nblocks;  \/\/ Number of data blocks$/;"	v	typeref:typename:int
+next	kernel/kalloc.c	/^  struct run *next;$/;"	m	struct:run	typeref:struct:run *	file:
+nextpid	kernel/proc.c	/^int nextpid = 1;$/;"	v	typeref:typename:int
+ninodeblocks	mkfs/mkfs.c	/^int ninodeblocks = NINODES \/ IPB + 1;$/;"	v	typeref:typename:int
+nlog	mkfs/mkfs.c	/^int nlog = LOGSIZE;$/;"	v	typeref:typename:int
+nmeta	mkfs/mkfs.c	/^int nmeta;    \/\/ Number of meta blocks (boot, sb, nlog, inode, bitmap)$/;"	v	typeref:typename:int
+nread	kernel/pipe.c	/^  uint nread;     \/\/ number of bytes read$/;"	m	struct:pipe	typeref:typename:uint	file:
+nulterminate	user/sh.c	/^nulterminate(struct cmd *cmd)$/;"	f	typeref:struct:cmd *
+nulterminate	user/sh.c	/^struct cmd *nulterminate(struct cmd*);$/;"	p	typeref:struct:cmd *	file:
+nwrite	kernel/pipe.c	/^  uint nwrite;    \/\/ number of bytes written$/;"	m	struct:pipe	typeref:typename:uint	file:
+openiputtest	user/usertests.c	/^openiputtest(char *s)$/;"	f	typeref:typename:void
+opentest	user/usertests.c	/^opentest(char *s)$/;"	f	typeref:typename:void
+ops	kernel/virtio_disk.c	/^  struct virtio_blk_req ops[NUM];$/;"	m	struct:disk	typeref:struct:virtio_blk_req[]	file:
+outofinodes	user/usertests.c	/^outofinodes(char *s)$/;"	f	typeref:typename:void
+outstanding	kernel/log.c	/^  int outstanding; \/\/ how many FS sys calls are executing.$/;"	m	struct:log	typeref:typename:int	file:
+panic	kernel/printf.c	/^panic(char *s)$/;"	f	typeref:typename:void
+panic	user/sh.c	/^panic(char *s)$/;"	f	typeref:typename:void
+panic	user/sh.c	/^void panic(char*);$/;"	p	typeref:typename:void	file:
+panicked	kernel/printf.c	/^volatile int panicked = 0;$/;"	v	typeref:typename:volatile int
+parseblock	user/sh.c	/^parseblock(char **ps, char *es)$/;"	f	typeref:struct:cmd *
+parsecmd	user/sh.c	/^parsecmd(char *s)$/;"	f	typeref:struct:cmd *
+parsecmd	user/sh.c	/^struct cmd *parsecmd(char*);$/;"	p	typeref:struct:cmd *	file:
+parseexec	user/sh.c	/^parseexec(char **ps, char *es)$/;"	f	typeref:struct:cmd *
+parseexec	user/sh.c	/^struct cmd *parseexec(char**, char*);$/;"	p	typeref:struct:cmd *	file:
+parseline	user/sh.c	/^parseline(char **ps, char *es)$/;"	f	typeref:struct:cmd *
+parseline	user/sh.c	/^struct cmd *parseline(char**, char*);$/;"	p	typeref:struct:cmd *	file:
+parsepipe	user/sh.c	/^parsepipe(char **ps, char *es)$/;"	f	typeref:struct:cmd *
+parsepipe	user/sh.c	/^struct cmd *parsepipe(char**, char*);$/;"	p	typeref:struct:cmd *	file:
+parseredirs	user/sh.c	/^parseredirs(struct cmd *cmd, char **ps, char *es)$/;"	f	typeref:struct:cmd *
+peek	user/sh.c	/^peek(char **ps, char *es, char *toks)$/;"	f	typeref:typename:int
+pgbug	user/usertests.c	/^pgbug(char *s)$/;"	f	typeref:typename:void
+pid_lock	kernel/proc.c	/^struct spinlock pid_lock;$/;"	v	typeref:struct:spinlock
+pipe	kernel/pipe.c	/^struct pipe {$/;"	s	file:
+pipe1	user/usertests.c	/^pipe1(char *s)$/;"	f	typeref:typename:void
+pipealloc	kernel/pipe.c	/^pipealloc(struct file **f0, struct file **f1)$/;"	f	typeref:typename:int
+pipeclose	kernel/pipe.c	/^pipeclose(struct pipe *pi, int writable)$/;"	f	typeref:typename:void
+pipecmd	user/sh.c	/^pipecmd(struct cmd *left, struct cmd *right)$/;"	f	typeref:struct:cmd *
+pipecmd	user/sh.c	/^struct pipecmd {$/;"	s	file:
+piperead	kernel/pipe.c	/^piperead(struct pipe *pi, uint64 addr, int n)$/;"	f	typeref:typename:int
+pipewrite	kernel/pipe.c	/^pipewrite(struct pipe *pi, uint64 addr, int n)$/;"	f	typeref:typename:int
+plic_claim	kernel/plic.c	/^plic_claim(void)$/;"	f	typeref:typename:int
+plic_complete	kernel/plic.c	/^plic_complete(int irq)$/;"	f	typeref:typename:void
+plicinit	kernel/plic.c	/^plicinit(void)$/;"	f	typeref:typename:void
+plicinithart	kernel/plic.c	/^plicinithart(void)$/;"	f	typeref:typename:void
+pop_off	kernel/spinlock.c	/^pop_off(void)$/;"	f	typeref:typename:void
+pr	kernel/printf.c	/^} pr;$/;"	v	typeref:struct:__anonef4e5b790108
+preempt	user/usertests.c	/^preempt(char *s)$/;"	f	typeref:typename:void
+print	user/forktest.c	/^print(const char *s)$/;"	f	typeref:typename:void
+printf	kernel/printf.c	/^printf(char *fmt, ...)$/;"	f	typeref:typename:void
+printf	user/printf.c	/^printf(const char *fmt, ...)$/;"	f	typeref:typename:void
+printfinit	kernel/printf.c	/^printfinit(void)$/;"	f	typeref:typename:void
+printint	kernel/printf.c	/^printint(int xx, int base, int sign)$/;"	f	typeref:typename:void	file:
+printint	user/printf.c	/^printint(int fd, int xx, int base, int sgn)$/;"	f	typeref:typename:void	file:
+printptr	kernel/printf.c	/^printptr(uint64 x)$/;"	f	typeref:typename:void	file:
+printptr	user/printf.c	/^printptr(int fd, uint64 x) {$/;"	f	typeref:typename:void	file:
+proc	kernel/proc.c	/^struct proc proc[NPROC];$/;"	v	typeref:struct:proc[]
+proc_freepagetable	kernel/proc.c	/^proc_freepagetable(pagetable_t pagetable, uint64 sz)$/;"	f	typeref:typename:void
+proc_mapstacks	kernel/proc.c	/^proc_mapstacks(pagetable_t kpgtbl)$/;"	f	typeref:typename:void
+proc_pagetable	kernel/proc.c	/^proc_pagetable(struct proc *p)$/;"	f	typeref:typename:pagetable_t
+procdump	kernel/proc.c	/^procdump(void)$/;"	f	typeref:typename:void
+procinit	kernel/proc.c	/^procinit(void)$/;"	f	typeref:typename:void
+ptr	user/umalloc.c	/^    union header *ptr;$/;"	m	struct:header::__anon3d351ad10108	typeref:union:header *	file:
+push_off	kernel/spinlock.c	/^push_off(void)$/;"	f	typeref:typename:void
+putc	user/printf.c	/^putc(int fd, char c)$/;"	f	typeref:typename:void	file:
+quicktests	user/usertests.c	/^} quicktests[] = {$/;"	v	typeref:struct:test[]
+r	kernel/console.c	/^  uint r;  \/\/ Read index$/;"	m	struct:__anonb6393d190108	typeref:typename:uint	file:
+ramdiskinit	kernel/ramdisk.c	/^ramdiskinit(void)$/;"	f	typeref:typename:void
+ramdiskrw	kernel/ramdisk.c	/^ramdiskrw(struct buf *b)$/;"	f	typeref:typename:void
+rand	user/grind.c	/^rand(void)$/;"	f	typeref:typename:int
+rand_next	user/grind.c	/^unsigned long rand_next = 1;$/;"	v	typeref:typename:unsigned long
+read_head	kernel/log.c	/^read_head(void)$/;"	f	typeref:typename:void	file:
+readi	kernel/fs.c	/^readi(struct inode *ip, int user_dst, uint64 dst, uint off, uint n)$/;"	f	typeref:typename:int
+readopen	kernel/pipe.c	/^  int readopen;   \/\/ read fd is still open$/;"	m	struct:pipe	typeref:typename:int	file:
+readsb	kernel/fs.c	/^readsb(int dev, struct superblock *sb)$/;"	f	typeref:typename:void	file:
+recover_from_log	kernel/log.c	/^recover_from_log(void)$/;"	f	typeref:typename:void	file:
+recover_from_log	kernel/log.c	/^static void recover_from_log(void);$/;"	p	typeref:typename:void	file:
+redircmd	user/sh.c	/^redircmd(struct cmd *subcmd, char *file, char *efile, int mode, int fd)$/;"	f	typeref:struct:cmd *
+redircmd	user/sh.c	/^struct redircmd {$/;"	s	file:
+release	kernel/spinlock.c	/^release(struct spinlock *lk)$/;"	f	typeref:typename:void
+releasesleep	kernel/sleeplock.c	/^releasesleep(struct sleeplock *lk)$/;"	f	typeref:typename:void
+reparent	kernel/proc.c	/^reparent(struct proc *p)$/;"	f	typeref:typename:void
+reparent	user/usertests.c	/^reparent(char *s)$/;"	f	typeref:typename:void
+reparent2	user/usertests.c	/^reparent2(char *s)$/;"	f	typeref:typename:void
+right	user/sh.c	/^  struct cmd *right;$/;"	m	struct:listcmd	typeref:struct:cmd *	file:
+right	user/sh.c	/^  struct cmd *right;$/;"	m	struct:pipecmd	typeref:struct:cmd *	file:
+rinode	mkfs/mkfs.c	/^rinode(uint inum, struct dinode *ip)$/;"	f	typeref:typename:void
+rinode	mkfs/mkfs.c	/^void rinode(uint inum, struct dinode *ip);$/;"	p	typeref:typename:void	file:
+rmdot	user/usertests.c	/^rmdot(char *s)$/;"	f	typeref:typename:void
+rsect	mkfs/mkfs.c	/^rsect(uint sec, void *buf)$/;"	f	typeref:typename:void
+rsect	mkfs/mkfs.c	/^void rsect(uint sec, void *buf);$/;"	p	typeref:typename:void	file:
+run	kernel/kalloc.c	/^struct run {$/;"	s	file:
+run	user/usertests.c	/^run(void f(char *), char *s) {$/;"	f	typeref:typename:int
+runcmd	user/sh.c	/^runcmd(struct cmd *cmd)$/;"	f	typeref:typename:void
+runcmd	user/sh.c	/^void runcmd(struct cmd*) __attribute__((noreturn));$/;"	p	typeref:typename:void	file:
+runtests	user/usertests.c	/^runtests(struct test *tests, char *justone) {$/;"	f	typeref:typename:int
+rwsbrk	user/usertests.c	/^rwsbrk()$/;"	f	typeref:typename:void
+s	user/umalloc.c	/^  } s;$/;"	m	union:header	typeref:struct:header::__anon3d351ad10108	file:
+s	user/usertests.c	/^  char *s;$/;"	m	struct:test	typeref:typename:char *	file:
+safestrcpy	kernel/string.c	/^safestrcpy(char *s, const char *t, int n)$/;"	f	typeref:typename:char *
+sb	kernel/fs.c	/^struct superblock sb; $/;"	v	typeref:struct:superblock
+sb	mkfs/mkfs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+sbrk8000	user/usertests.c	/^sbrk8000(char *s)$/;"	f	typeref:typename:void
+sbrkarg	user/usertests.c	/^sbrkarg(char *s)$/;"	f	typeref:typename:void
+sbrkbasic	user/usertests.c	/^sbrkbasic(char *s)$/;"	f	typeref:typename:void
+sbrkbugs	user/usertests.c	/^sbrkbugs(char *s)$/;"	f	typeref:typename:void
+sbrkfail	user/usertests.c	/^sbrkfail(char *s)$/;"	f	typeref:typename:void
+sbrklast	user/usertests.c	/^sbrklast(char *s)$/;"	f	typeref:typename:void
+sbrkmuch	user/usertests.c	/^sbrkmuch(char *s)$/;"	f	typeref:typename:void
+sched	kernel/proc.c	/^sched(void)$/;"	f	typeref:typename:void
+scheduler	kernel/proc.c	/^scheduler(void)$/;"	f	typeref:typename:void
+setkilled	kernel/proc.c	/^setkilled(struct proc *p)$/;"	f	typeref:typename:void
+sharedfd	user/usertests.c	/^sharedfd(char *s)$/;"	f	typeref:typename:void
+size	kernel/log.c	/^  int size;$/;"	m	struct:log	typeref:typename:int	file:
+size	user/umalloc.c	/^    uint size;$/;"	m	struct:header::__anon3d351ad10108	typeref:typename:uint	file:
+skipelem	kernel/fs.c	/^skipelem(char *path, char *name)$/;"	f	typeref:typename:char *	file:
+sleep	kernel/proc.c	/^sleep(void *chan, struct spinlock *lk)$/;"	f	typeref:typename:void
+slowtests	user/usertests.c	/^struct test slowtests[] = {$/;"	v	typeref:struct:test[]
+stack0	kernel/start.c	/^__attribute__ ((aligned (16))) char stack0[4096 * NCPU];$/;"	v	typeref:typename:char[]
+stacktest	user/usertests.c	/^stacktest(char *s)$/;"	f	typeref:typename:void
+start	kernel/log.c	/^  int start;$/;"	m	struct:log	typeref:typename:int	file:
+start	kernel/start.c	/^start()$/;"	f	typeref:typename:void
+started	kernel/main.c	/^volatile static int started = 0;$/;"	v	typeref:typename:volatile int	file:
+stat	mkfs/mkfs.c	/^#define stat /;"	d	file:
+stat	user/ulib.c	/^stat(const char *n, struct stat *st)$/;"	f	typeref:typename:int
+stati	kernel/fs.c	/^stati(struct inode *ip, struct stat *st)$/;"	f	typeref:typename:void
+static_assert	mkfs/mkfs.c	/^#define static_assert(/;"	d	file:
+status	kernel/virtio_disk.c	/^    char status;$/;"	m	struct:disk::__anon0ecc7a2d0108	typeref:typename:char	file:
+strchr	user/ulib.c	/^strchr(const char *s, char c)$/;"	f	typeref:typename:char *
+strcmp	user/ulib.c	/^strcmp(const char *p, const char *q)$/;"	f	typeref:typename:int
+strcpy	user/ulib.c	/^strcpy(char *s, const char *t)$/;"	f	typeref:typename:char *
+strlen	kernel/string.c	/^strlen(const char *s)$/;"	f	typeref:typename:int
+strlen	user/ulib.c	/^strlen(const char *s)$/;"	f	typeref:typename:uint
+strncmp	kernel/string.c	/^strncmp(const char *p, const char *q, uint n)$/;"	f	typeref:typename:int
+strncpy	kernel/string.c	/^strncpy(char *s, const char *t, int n)$/;"	f	typeref:typename:char *
+subdir	user/usertests.c	/^subdir(char *s)$/;"	f	typeref:typename:void
+symbols	user/sh.c	/^char symbols[] = "<|>&;()";$/;"	v	typeref:typename:char[]
+sys_chdir	kernel/syscall.c	/^extern uint64 sys_chdir(void);$/;"	p	typeref:typename:uint64	file:
+sys_chdir	kernel/sysfile.c	/^sys_chdir(void)$/;"	f	typeref:typename:uint64
+sys_close	kernel/syscall.c	/^extern uint64 sys_close(void);$/;"	p	typeref:typename:uint64	file:
+sys_close	kernel/sysfile.c	/^sys_close(void)$/;"	f	typeref:typename:uint64
+sys_dup	kernel/syscall.c	/^extern uint64 sys_dup(void);$/;"	p	typeref:typename:uint64	file:
+sys_dup	kernel/sysfile.c	/^sys_dup(void)$/;"	f	typeref:typename:uint64
+sys_exec	kernel/syscall.c	/^extern uint64 sys_exec(void);$/;"	p	typeref:typename:uint64	file:
+sys_exec	kernel/sysfile.c	/^sys_exec(void)$/;"	f	typeref:typename:uint64
+sys_exit	kernel/syscall.c	/^extern uint64 sys_exit(void);$/;"	p	typeref:typename:uint64	file:
+sys_exit	kernel/sysproc.c	/^sys_exit(void)$/;"	f	typeref:typename:uint64
+sys_fork	kernel/syscall.c	/^extern uint64 sys_fork(void);$/;"	p	typeref:typename:uint64	file:
+sys_fork	kernel/sysproc.c	/^sys_fork(void)$/;"	f	typeref:typename:uint64
+sys_fstat	kernel/syscall.c	/^extern uint64 sys_fstat(void);$/;"	p	typeref:typename:uint64	file:
+sys_fstat	kernel/sysfile.c	/^sys_fstat(void)$/;"	f	typeref:typename:uint64
+sys_getpid	kernel/syscall.c	/^extern uint64 sys_getpid(void);$/;"	p	typeref:typename:uint64	file:
+sys_getpid	kernel/sysproc.c	/^sys_getpid(void)$/;"	f	typeref:typename:uint64
+sys_kill	kernel/syscall.c	/^extern uint64 sys_kill(void);$/;"	p	typeref:typename:uint64	file:
+sys_kill	kernel/sysproc.c	/^sys_kill(void)$/;"	f	typeref:typename:uint64
+sys_link	kernel/syscall.c	/^extern uint64 sys_link(void);$/;"	p	typeref:typename:uint64	file:
+sys_link	kernel/sysfile.c	/^sys_link(void)$/;"	f	typeref:typename:uint64
+sys_mkdir	kernel/syscall.c	/^extern uint64 sys_mkdir(void);$/;"	p	typeref:typename:uint64	file:
+sys_mkdir	kernel/sysfile.c	/^sys_mkdir(void)$/;"	f	typeref:typename:uint64
+sys_mknod	kernel/syscall.c	/^extern uint64 sys_mknod(void);$/;"	p	typeref:typename:uint64	file:
+sys_mknod	kernel/sysfile.c	/^sys_mknod(void)$/;"	f	typeref:typename:uint64
+sys_open	kernel/syscall.c	/^extern uint64 sys_open(void);$/;"	p	typeref:typename:uint64	file:
+sys_open	kernel/sysfile.c	/^sys_open(void)$/;"	f	typeref:typename:uint64
+sys_pipe	kernel/syscall.c	/^extern uint64 sys_pipe(void);$/;"	p	typeref:typename:uint64	file:
+sys_pipe	kernel/sysfile.c	/^sys_pipe(void)$/;"	f	typeref:typename:uint64
+sys_read	kernel/syscall.c	/^extern uint64 sys_read(void);$/;"	p	typeref:typename:uint64	file:
+sys_read	kernel/sysfile.c	/^sys_read(void)$/;"	f	typeref:typename:uint64
+sys_sbrk	kernel/syscall.c	/^extern uint64 sys_sbrk(void);$/;"	p	typeref:typename:uint64	file:
+sys_sbrk	kernel/sysproc.c	/^sys_sbrk(void)$/;"	f	typeref:typename:uint64
+sys_sleep	kernel/syscall.c	/^extern uint64 sys_sleep(void);$/;"	p	typeref:typename:uint64	file:
+sys_sleep	kernel/sysproc.c	/^sys_sleep(void)$/;"	f	typeref:typename:uint64
+sys_unlink	kernel/syscall.c	/^extern uint64 sys_unlink(void);$/;"	p	typeref:typename:uint64	file:
+sys_unlink	kernel/sysfile.c	/^sys_unlink(void)$/;"	f	typeref:typename:uint64
+sys_uptime	kernel/syscall.c	/^extern uint64 sys_uptime(void);$/;"	p	typeref:typename:uint64	file:
+sys_uptime	kernel/sysproc.c	/^sys_uptime(void)$/;"	f	typeref:typename:uint64
+sys_wait	kernel/syscall.c	/^extern uint64 sys_wait(void);$/;"	p	typeref:typename:uint64	file:
+sys_wait	kernel/sysproc.c	/^sys_wait(void)$/;"	f	typeref:typename:uint64
+sys_write	kernel/syscall.c	/^extern uint64 sys_write(void);$/;"	p	typeref:typename:uint64	file:
+sys_write	kernel/sysfile.c	/^sys_write(void)$/;"	f	typeref:typename:uint64
+syscall	kernel/syscall.c	/^syscall(void)$/;"	f	typeref:typename:void
+syscalls	kernel/syscall.c	/^static uint64 (*syscalls[])(void) = {$/;"	v	typeref:typename:uint64 (* [])(void)	file:
+test	user/usertests.c	/^struct test {$/;"	s	file:
+textwrite	user/usertests.c	/^textwrite(char *s)$/;"	f	typeref:typename:void
+ticks	kernel/trap.c	/^uint ticks;$/;"	v	typeref:typename:uint
+tickslock	kernel/trap.c	/^struct spinlock tickslock;$/;"	v	typeref:struct:spinlock
+timer_scratch	kernel/start.c	/^uint64 timer_scratch[NCPU][5];$/;"	v	typeref:typename:uint64[][5]
+timerinit	kernel/start.c	/^timerinit()$/;"	f	typeref:typename:void
+timerinit	kernel/start.c	/^void timerinit();$/;"	p	typeref:typename:void	file:
+timervec	kernel/start.c	/^extern void timervec();$/;"	p	typeref:typename:void	file:
+trapinit	kernel/trap.c	/^trapinit(void)$/;"	f	typeref:typename:void
+trapinithart	kernel/trap.c	/^trapinithart(void)$/;"	f	typeref:typename:void
+truncate1	user/usertests.c	/^truncate1(char *s)$/;"	f	typeref:typename:void
+truncate2	user/usertests.c	/^truncate2(char *s)$/;"	f	typeref:typename:void
+truncate3	user/usertests.c	/^truncate3(char *s)$/;"	f	typeref:typename:void
+twochildren	user/usertests.c	/^twochildren(char *s)$/;"	f	typeref:typename:void
+type	user/sh.c	/^  int type;$/;"	m	struct:backcmd	typeref:typename:int	file:
+type	user/sh.c	/^  int type;$/;"	m	struct:cmd	typeref:typename:int	file:
+type	user/sh.c	/^  int type;$/;"	m	struct:execcmd	typeref:typename:int	file:
+type	user/sh.c	/^  int type;$/;"	m	struct:listcmd	typeref:typename:int	file:
+type	user/sh.c	/^  int type;$/;"	m	struct:pipecmd	typeref:typename:int	file:
+type	user/sh.c	/^  int type;$/;"	m	struct:redircmd	typeref:typename:int	file:
+uart_tx_buf	kernel/uart.c	/^char uart_tx_buf[UART_TX_BUF_SIZE];$/;"	v	typeref:typename:char[]
+uart_tx_lock	kernel/uart.c	/^struct spinlock uart_tx_lock;$/;"	v	typeref:struct:spinlock
+uart_tx_r	kernel/uart.c	/^uint64 uart_tx_r; \/\/ read next from uart_tx_buf[uart_tx_r % UART_TX_BUF_SIZE]$/;"	v	typeref:typename:uint64
+uart_tx_w	kernel/uart.c	/^uint64 uart_tx_w; \/\/ write next to uart_tx_buf[uart_tx_w % UART_TX_BUF_SIZE]$/;"	v	typeref:typename:uint64
+uartgetc	kernel/uart.c	/^uartgetc(void)$/;"	f	typeref:typename:int
+uartinit	kernel/uart.c	/^uartinit(void)$/;"	f	typeref:typename:void
+uartintr	kernel/uart.c	/^uartintr(void)$/;"	f	typeref:typename:void
+uartputc	kernel/uart.c	/^uartputc(int c)$/;"	f	typeref:typename:void
+uartputc_sync	kernel/uart.c	/^uartputc_sync(int c)$/;"	f	typeref:typename:void
+uartstart	kernel/uart.c	/^uartstart()$/;"	f	typeref:typename:void
+uartstart	kernel/uart.c	/^void uartstart();$/;"	p	typeref:typename:void	file:
+uninit	user/usertests.c	/^char uninit[10000];$/;"	v	typeref:typename:char[10000]
+unlinkread	user/usertests.c	/^unlinkread(char *s)$/;"	f	typeref:typename:void
+used	kernel/virtio_disk.c	/^  struct virtq_used *used;$/;"	m	struct:disk	typeref:struct:virtq_used *	file:
+used_idx	kernel/virtio_disk.c	/^  uint16 used_idx; \/\/ we've looked this far in used[2..NUM].$/;"	m	struct:disk	typeref:typename:uint16	file:
+userinit	kernel/proc.c	/^userinit(void)$/;"	f	typeref:typename:void
+usertrap	kernel/trap.c	/^usertrap(void)$/;"	f	typeref:typename:void
+usertrapret	kernel/trap.c	/^usertrapret(void)$/;"	f	typeref:typename:void
+uvmalloc	kernel/vm.c	/^uvmalloc(pagetable_t pagetable, uint64 oldsz, uint64 newsz, int xperm)$/;"	f	typeref:typename:uint64
+uvmclear	kernel/vm.c	/^uvmclear(pagetable_t pagetable, uint64 va)$/;"	f	typeref:typename:void
+uvmcopy	kernel/vm.c	/^uvmcopy(pagetable_t old, pagetable_t new, uint64 sz)$/;"	f	typeref:typename:int
+uvmcreate	kernel/vm.c	/^uvmcreate()$/;"	f	typeref:typename:pagetable_t
+uvmdealloc	kernel/vm.c	/^uvmdealloc(pagetable_t pagetable, uint64 oldsz, uint64 newsz)$/;"	f	typeref:typename:uint64
+uvmfirst	kernel/vm.c	/^uvmfirst(pagetable_t pagetable, uchar *src, uint sz)$/;"	f	typeref:typename:void
+uvmfree	kernel/vm.c	/^uvmfree(pagetable_t pagetable, uint64 sz)$/;"	f	typeref:typename:void
+uvmunmap	kernel/vm.c	/^uvmunmap(pagetable_t pagetable, uint64 va, uint64 npages, int do_free)$/;"	f	typeref:typename:void
+validatetest	user/usertests.c	/^validatetest(char *s)$/;"	f	typeref:typename:void
+vdisk_lock	kernel/virtio_disk.c	/^  struct spinlock vdisk_lock;$/;"	m	struct:disk	typeref:struct:spinlock	file:
+virtio_disk_init	kernel/virtio_disk.c	/^virtio_disk_init(void)$/;"	f	typeref:typename:void
+virtio_disk_intr	kernel/virtio_disk.c	/^virtio_disk_intr()$/;"	f	typeref:typename:void
+virtio_disk_rw	kernel/virtio_disk.c	/^virtio_disk_rw(struct buf *b, int write)$/;"	f	typeref:typename:void
+vprintf	user/printf.c	/^vprintf(int fd, const char *fmt, va_list ap)$/;"	f	typeref:typename:void
+w	kernel/console.c	/^  uint w;  \/\/ Write index$/;"	m	struct:__anonb6393d190108	typeref:typename:uint	file:
+wait	kernel/proc.c	/^wait(uint64 addr)$/;"	f	typeref:typename:int
+wait_lock	kernel/proc.c	/^struct spinlock wait_lock;$/;"	v	typeref:struct:spinlock
+wakeup	kernel/proc.c	/^wakeup(void *chan)$/;"	f	typeref:typename:void
+walk	kernel/vm.c	/^walk(pagetable_t pagetable, uint64 va, int alloc)$/;"	f	typeref:typename:pte_t *
+walkaddr	kernel/vm.c	/^walkaddr(pagetable_t pagetable, uint64 va)$/;"	f	typeref:typename:uint64
+wc	user/wc.c	/^wc(int fd, char *name)$/;"	f	typeref:typename:void
+whitespace	user/sh.c	/^char whitespace[] = " \\t\\r\\n\\v";$/;"	v	typeref:typename:char[]
+winode	mkfs/mkfs.c	/^void winode(uint, struct dinode*);$/;"	p	typeref:typename:void	file:
+winode	mkfs/mkfs.c	/^winode(uint inum, struct dinode *ip)$/;"	f	typeref:typename:void
+write_head	kernel/log.c	/^write_head(void)$/;"	f	typeref:typename:void	file:
+write_log	kernel/log.c	/^write_log(void)$/;"	f	typeref:typename:void	file:
+writebig	user/usertests.c	/^writebig(char *s)$/;"	f	typeref:typename:void
+writei	kernel/fs.c	/^writei(struct inode *ip, int user_src, uint64 src, uint off, uint n)$/;"	f	typeref:typename:int
+writeopen	kernel/pipe.c	/^  int writeopen;  \/\/ write fd is still open$/;"	m	struct:pipe	typeref:typename:int	file:
+writetest	user/usertests.c	/^writetest(char *s)$/;"	f	typeref:typename:void
+wsect	mkfs/mkfs.c	/^void wsect(uint, void*);$/;"	p	typeref:typename:void	file:
+wsect	mkfs/mkfs.c	/^wsect(uint sec, void *buf)$/;"	f	typeref:typename:void
+x	user/umalloc.c	/^  Align x;$/;"	m	union:header	typeref:typename:Align	file:
+xint	mkfs/mkfs.c	/^xint(uint x)$/;"	f	typeref:typename:uint
+xshort	mkfs/mkfs.c	/^xshort(ushort x)$/;"	f	typeref:typename:ushort
+yield	kernel/proc.c	/^yield(void)$/;"	f	typeref:typename:void
+zeroes	mkfs/mkfs.c	/^char zeroes[BSIZE];$/;"	v	typeref:typename:char[]
