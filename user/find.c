@@ -9,6 +9,8 @@
 
 #define BUFFER_SIZE 512
 
+#define REQUIRED_NUM_ARGS 3
+
 struct fs_entry
 {
     int fd;
@@ -30,9 +32,24 @@ static void process_dir(const struct fs_entry *entry, const char *file_to_find);
 int main(int argc, char* argv[])
 {
     // TODO: implement --help flag
+    if (argc == 2 && strcmp(argv[1], "--help") == 0)
+    {
+        fprintf(STDOUT, "find: help page\n");
+        fprintf(STDOUT, "----------------------------------------\n");
+        fprintf(STDOUT, "usage:   find [directory] [file to find]\n");
+        fprintf(STDOUT, "example: find . file.txt\n");
+        exit(0);
+    }
 
-    const char *find_path = "./test_dir";
-    const char *file_to_find = "test_file_a";
+    if (argc != REQUIRED_NUM_ARGS)
+    {
+        fprintf(STDERR, "find: wrong number of arguments: %d\n", argc);
+        fprintf(STDERR, "Try 'find --help' for more information.\n");
+        exit(1);
+    }
+
+    const char *find_path = argv[1];
+    const char *file_to_find = argv[2];
 
     struct fs_entry entry = { .path = find_path };
 
@@ -49,7 +66,6 @@ int main(int argc, char* argv[])
         close(entry.fd);
         exit(1);
     }
-
 
     switch (entry.st.type)
     {
@@ -87,7 +103,11 @@ static void process_dir(const struct fs_entry *entry, const char *file_to_find)
         fprintf(STDOUT, "[LOG]: read dir %s : %s\n", entry->path, de.name);
 
         // without recursion:
-        if (strcmp(file_to_find, de.name) == 0)
+        char file_name[DIRSIZ + 1];
+        memmove(file_name, de.name, DIRSIZ);
+        file_name[DIRSIZ] = 0;
+
+        if (strcmp(file_to_find, file_name) == 0)
         {
             char *write_iterator = answer_buffer;
 
@@ -97,8 +117,7 @@ static void process_dir(const struct fs_entry *entry, const char *file_to_find)
             strcpy(write_iterator, "/");
             write_iterator += 1;
 
-            strcpy(write_iterator, de.name);
-
+            strcpy(write_iterator, file_name);
         }
     }
 
