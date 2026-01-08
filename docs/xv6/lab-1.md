@@ -297,3 +297,15 @@ Your solution is correct if produces the following output (when the file system 
     ./a/aa/b
     $
 ```
+
+#### xargs:
+```
+Write a simple version of the UNIX xargs program: its arguments describe a command to run, it reads lines from the standard input, and it runs the command for each line, appending the line to the command's arguments. Your solution should be in the file user/xargs.c.
+
+The following example illustrates xarg's behavior:
+
+    $ echo hello too | xargs echo bye
+    bye hello too
+    $
+  
+```
